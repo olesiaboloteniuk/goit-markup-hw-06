@@ -430,6 +430,10 @@ color: var(--white-text-color);
     color: var(--accent-color);
 }
 
+.joinbox {
+	margin-right: 93px;
+}
+
 .joinbox__title {
 	font-weight: 700;
 	font-size: 14px;
@@ -774,4 +778,26 @@ overflow: hidden;
 .check-link {
 color:var(--accent-color);
 text-decoration: underline;
+}
+
+.icon-send {
+	position: absolute;
+	right: 28px;
+	top: 50%;
+	transform: translateY(-50%);
+	transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.follow-button {
+position:relative;
+height: 50px;
+}
+
+.follow__input {
+width: 358px;
+height: 50px;
+background-color: transparent;
+border-color:#FFFFFF4D ;
+color: var(--white-text-color);
+margin-right: 12px;
 }

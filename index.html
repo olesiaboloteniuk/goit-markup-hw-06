@@ -580,40 +580,27 @@
     </main>
 
     <footer class="footer">
-      <div class="footer__container container flex-container">
+        <div class="footer__container container flex-container">
         <div class="footer__contacts-wrapper">
-          <a class="footer__logo logo" href="./index.html"
-            ><span class="logo__label">Web</span>Studio
-          </a>
-          <address class="address">
+            <a class="footer__logo logo" href="./index.html">
+                <span class="logo__label">Web</span>Studio </a>
+                <address class="address">
             <ul>
-              <li class="address__item">
-                <a
-                  class="address__street address__link--style"
-                  href="695ParkAve,NewYork,NY10065,UnitedStates"
-                  >695 Park Ave, New York, NY 10065,United States</a
-                >
-              </li>
-              <li class="address__item">
-                <a
-                  class="address__link address__link--style"
-                  href="mailto:info@devstudio.com"
-                  >info@devstudio.com</a
-                >
-              </li>
-              <li class="address__item">
-                <a
-                  class="address__link address__link--style"
-                  href="tel:+380961111111"
-                  >+38 096 111 11 11</a
-                >
-              </li>
+                <li class="address__item">
+                    <a class="address__street address__link--style" href="695ParkAve,NewYork,NY10065,UnitedStates">695 Park Ave, New York, NY 10065,United States</a>
+                </li>
+                <li class="address__item">
+                    <a class="address__link address__link--style" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                </li>
+                <li class="address__item">
+                    <a class="address__link address__link--style" href="tel:+380961111111">+38 096 111 11 11</a>
+                </li>
             </ul>
-          </address>
-        </div>
+                </address>
+            </div>
         <div class="footer__joinbox joinbox">
-          <h3 class="joinbox__title">join</h3>
-          <ul class="joinbox__social-list flex-container">
+                <h3 class="joinbox__title">join</h3>
+                <ul class="joinbox__social-list flex-container">
             <li class="social-item joinbox__social-item">
               <a
                 class="social-link joinbox__social-link flex-container"
@@ -662,9 +649,26 @@
                 </svg>
               </a>
             </li>
-          </ul>
+            </ul>
         </div>
-      </div>
+        
+    <div class="footer__follow-wrapper">
+        <h3 class="joinbox__title">Sign up for the newsletter</h3> 
+       <div class="flex-container"> <label for="input-email" class="label ">
+            <input type="email"
+                name="email" 
+                id="input-email"
+                class="input follow__input"
+                placeholder="E-mail"/>
+        </label>
+    
+            <button class="preview__button form-button follow-button" type="submit">Follow
+                <svg class="icon-send" width="24" height="24">
+                <use href="./images/iconn.svg#icon-icon-send"></use>
+            </svg></button>
+            </div>
+    </div>
+</div>
     </footer>
 
     <div class="backdrop is-hidden" data-modal>
@@ -707,7 +711,7 @@
           <label for="input-email" class="label">Email</label>
           <div class="input-wrapper">
           <input
-            type="emil"
+            type="email"
             name="email"
             id="input-email"
             class="input field"
